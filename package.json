@@ -1,0 +1,34 @@
+{
+  "name": "@new-ui/reset",
+  "version": "0.0.1",
+  "description": "CSS reset.",
+  "source": "src/index.scss",
+  "main": "dist/index.css",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewDesignFile/reset.git"
+  },
+  "keywords": [
+    "reset",
+    "css",
+    "modern"
+  ],
+  "author": "@planetabhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NewDesignFile/reset/issues"
+  },
+  "homepage": "https://github.com/NewDesignFile/reset#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "autoprefixer": "^10.4.20",
+    "parcel": "^2.12.0"
+  }
+}
