@@ -1,6 +1,6 @@
 {
   "name": "@new-ui/reset",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SCSS, CSS reset.",
   "source": "src/index.scss",
   "main": "dist/index.css",
