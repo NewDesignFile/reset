@@ -6,6 +6,7 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  vertical-align: baseline;
 }
 
 body, h1, h2, h3, h4, p,
@@ -14,12 +15,23 @@ figure, blockquote, dl, dd {
   padding: 0;
 }
 
+ol, ul {
+	list-style: none;
+}
+
 img,
 picture {
   max-width: 100%;
   display: block;
 }
 
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
 table {
   border-collapse: collapse;
+  border-spacing: 0;
 }
